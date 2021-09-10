@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ContextE from './ContextE'
+import ContextE from './22b_ContextE'
 
 export class ContextC extends Component {
     render() {
@@ -13,3 +13,12 @@ export class ContextC extends Component {
 }
 
 export default ContextC
+
+/***
+ * the JSX sample that will be in App.js
+   <UserProvider value="Bencode">
+            <ContextC />
+          </UserProvider>
+
+ * **/
+

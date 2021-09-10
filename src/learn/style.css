@@ -1,3 +1,14 @@
 .silicon{
-    background-color: brown;
+    background-color: #ccc;
+    margin:20px;
+    padding:20px;
+    width:400px;
+}
+
+.error{
+    background-color: red;
+    margin:20px;
+    padding:20px;
+    width:400px;
+    color:white
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import ContextC from './learn/ContextC'
-import {UserProvider} from './learn/ContextUser'
+
+import HttpPost from './learn/HttpPost'
 
 function App() {
   return (
@@ -9,9 +9,7 @@ function App() {
       <br /><br /><br />
       <center>
         <div className="App">
-          <UserProvider value="Bencode">
-            <ContextC />
-          </UserProvider>
+            <HttpPost />
         </div>
       </center >
     </div >
