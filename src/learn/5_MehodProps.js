@@ -1,0 +1,1 @@
+// check the parent and the child components
